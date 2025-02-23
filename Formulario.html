@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Formulario.css">
+</head>
+<body>
+   
+    
+    <div class="row content" id="contacus">
+        <div class="container">
+            <h1>Formulario de Registro</h1>
+            <form id="registration-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label> <!--Campos del formulario -->
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="apellidos">Apellidos:</label> <!--Campos del formulario -->
+                    <input type="text" id="apellidos" name="apellidos" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label> <!--Campos del formulario -->
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    
+                    <button onclick=alerta()>Enviar</button>  <!-- alerta de java  -->
+                    <script>
+                        function alerta() {
+                          if (document.getElementById("nombre").value ==="" ) {
+                            alert('Ingresa los datos.');
+                          } else {
+                            alert('¡Gracias! Registro completo.');
+                          }
+                        }
+                      </script>
+                          <button onclick="window.location.href='index.html'">Ir a la Página Principal</button> <!--pagina de inicio -->
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; Formulario de inscripción</p>
+    </footer>
+
+</body>
+</html>

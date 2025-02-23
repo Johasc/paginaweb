@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desierto de la Tatacoa</title>
+    <link rel="stylesheet" href="sitiosturisticos.css">
+</head>
+<body>
+    <!-- Header encabezado de pagina-->
+    <header>
+        <div class="start">
+            <img alt="Logo desierto" src="Imagenes/iconodesierto.png" height="150"/>
+            <h1>DESIERTO DE LA TATACOA</h1>
+            <p>Un lugar magico</p>
+            <button onclick="window.location.href='index.html'">Ir a la Página Principal</button>
+        </div>
+    </header>
+    <!-- Navegación -->
+   
+    <br><br>  <!-- Salto de linea -->
+
+    <div class="row content" id="home">
+        <aside class="left"> <!-- barras laterales que muestran contenido relacionado al tema principal -->
+            <img src="Imagenes/Desierto2.png" class="personal-photo" alt="Foto">  <!-- imagen tariada de la carpeta imagenes -->
+            <h2>Lugar Magico</h2>
+            <p>El desierto de la Tatacoa es una región semiárida ubicada en el departamento del Huila, Colombia. 
+                Presenta procesos de erosión, cactus, arbustos espinosos, condiciones extremas del clima 
+                y hallazgos fósiles.</p>
+            
+            <h3>Videos del Desierto </h3>
+            <p> <u>Estos videos son una muestra de este magico lugar.</u></p>
+                   <!-- links que me llevan al video  -->
+            <a href="https://www.youtube.com/watch?v=V0IQhvlgaKA&ab_channel=CaminanTr3s" class="video-link">
+                <img src="Imagenes/DesiertoVideo.png" alt="Video 1" class="video-img">  <!-- imagen donde se da click para ir al viedo -->
+
+                <a href="https://www.youtube.com/watch?v=VMmukwZEIS8&ab_channel=ViajeroReal" class="video-link">
+                 <img src="Imagenes/Desiertovideo2.png" alt="Video 2" class="video-img">
+                </a>
+                <a href="https://www.youtube.com/watch?v=oCEqmjtjvd8&ab_channel=Huila%2Cunpara%C3%ADsopordescubrir" class="video-link">
+                 <img src="Imagenes/DesiertoVideo3.png" alt="Video 3" class="video-img">
+                          
+            </a>  
+           
+        </aside>
+        <section class="main"> <!-- seccion al lado derecho de la pagina, class main para poder poner atributos en el .css  -->
+            <article>
+                <h2>Tours al desierto | ¿Qué hacer en el desierto? </h2>
+                
+                <img alt="post 1" src="Imagenes/Desierto3.png"/>
+                <p> En el Desierto de la Tatacoa, en Colombia, puedes hacer actividades como observar 
+                    las estrellas, recorrer el desierto, visitar el Ovni Puerto, y más
+                <ul> <!--  lista  -->
+                    Observar las estrellas.
+                    
+                       <li>El Desierto de la Tatacoa es un lugar ideal para los amantes de la astronomía. </li>
+                       <li> Se pueden observar las 88 constelaciones.</li>
+                       <li>El Observatorio Astronómico tiene dos telescopios de investigación científica.</li>
+                        <br><br>
+
+                        Recorrer el desierto. 
+                        <li>Se puede recorrer el desierto en bicicleta, a caballo, o en cuatrimoto.</li>
+                        <li>Se puede recorrer el Desierto Rojo o el Desierto Gris.</li>
+                        <li>Se pueden hacer rutas en todoterreno.</li>
+                        <br><br>
+
+                        Visitar el Ovni Puerto.
+                        <li>El Ovni Puerto es un lugar turístico del Desierto de la Tatacoa.</li>
+                        <br><br>
+
+                        Bañarse en piscinas 
+                        <li>Se pueden bañar en piscinas naturales en medio del desierto.</li>
+                        <li>Se puede hospedarse en hoteles u hostales dentro del desierto o en Villavieja.</li>
+                        
+                </ul>
+                          
+                </p>
+                
+            </article>
+            <article>
+                <h2> Plan 2 días 1 noche| Te esperamos. </h2>
+                
+                <img alt="post 2" src="Imagenes/eldesiertodelatatacoa.png"/>
+                <p>
+                    Tour Desierto de La Tatacoa 2 días, 1 noche. Un plan perfecto para compartir en familia.
+                    Un fantástico lugar para que vivas una experiencia llena de colores, paisajes e historia.
+                     Podrás disfrutar de estados naturales que en el día te harán sentir en otro planeta
+                      y en la noche te llevarán más cerca del universo y sus fenómenos celestes. ¡El desierto te espera!
+                </p>
+                    
+                </article>
+        
+        </section>
+    </div>
+   
+
+    <footer>
+        <p>&copy; DESIERTO DE LA TATACOA</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let linkHome = document.getElementById("linkHome");
+            linkHome.click();
+        });
+    </script>
+</body>
+</html>
